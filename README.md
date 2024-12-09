@@ -13,6 +13,9 @@ This platform includes a Python-powered backend for blockchain functionality, a 
 In this project, the Fetch API enables real-time data exchange between the front end and back end for seamless transactions, balance updates, and mining.
 -----
 
+# Technology Used
+Language : [![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
 # Collective Strategy
 
 •	Team Lead/Project Coordinator –
