@@ -13,31 +13,36 @@ This platform includes a Python-powered backend for blockchain functionality, a 
 In this project, the Fetch API enables real-time data exchange between the front end and back end for seamless transactions, balance updates, and mining.
 -----
 
-•	Collective Strategy
------
+# Collective Strategy
+
 •	Team Lead/Project Coordinator –
 ----- 
 •	Assigned To Al-Amin Islam (41230100639)
+
 Objectives: Oversees project progress, ensures deadlines are met, and consolidates weekly reports for faculty.
 
 •	Backend Developer – 
 -----
 •	Assigned To: Tahmid Hasan Rafi (41230100808)
+
 Objectives: Focuses on blockchain logic and Python-based cryptocurrency platform enhancements.
 
 •	Frontend Developer – 
 -----
-•	Assigned To: lvi Hasan Emon (41230100821)
+•	Assigned To: Alvi Hasan Emon (41230100821)
+
 Objectives: Builds and styles the UI using HTML, CSS, and JavaScript.
 
 •	Database Developer – 
 -----
 •	Assigned To: Tnha Zaman (41230100815)
+
 Objectives: Manages MySQL setup, user account handling, and integration with the backend.
 
 •	Quality Assurance (QA) and Documentation – 
 -----
 •	Assigned To: Abida Hossain Shrabonti (41230100800)
+
 Objectives: Handles testing, debugging, and preparing documentation. This member also assists in preparing the final presentation and video.
 
 
