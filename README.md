@@ -2,6 +2,7 @@
 # Blueprint of the Report
 
 •	Project Prologue:
+-----
 
 This project is a blockchain-based cryptocurrency platform that allows secure transactions, coin mining, and user interaction through a dynamic web interface.
 
