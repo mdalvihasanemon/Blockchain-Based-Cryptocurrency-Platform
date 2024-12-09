@@ -89,7 +89,7 @@ Objectives: Builds and styles the UI using HTML, CSS, and JavaScript.
 Objectives: Manages MySQL setup, user account handling, and integration with the backend.
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-blob:https://web.whatsapp.com/01690e2f-e893-40e5-b929-3f171d09ba28
+[![Database Management Map](https://github.com/your-repo/image.png)]
 
 •	Quality Assurance (QA) and Documentation – 
 -----
