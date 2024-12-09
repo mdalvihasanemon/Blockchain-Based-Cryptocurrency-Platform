@@ -87,6 +87,9 @@ Objectives: Builds and styles the UI using HTML, CSS, and JavaScript.
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
+![UI](https://github.com/user-attachments/assets/59e52e35-6f72-44f3-a533-638b70497c12)
+
+
 •	Database Developer – 
 -----
 •	Assigned To: Tnha Zaman (41230100815)
@@ -104,6 +107,9 @@ Objectives: Manages MySQL setup, user account handling, and integration with the
 Objectives: Handles testing, debugging, and preparing documentation. This member also assists in preparing the final presentation and video.
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
+![QA](https://github.com/user-attachments/assets/a74410cd-40eb-4cf9-8691-96aa7711ba15)
+
 
 
 •	Revenue Streams
