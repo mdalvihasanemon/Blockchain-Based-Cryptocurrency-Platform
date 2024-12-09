@@ -66,6 +66,8 @@ Objectives: Oversees project progress and ensures deadlines are met.
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
+![workflow](https://github.com/user-attachments/assets/ac4ac758-9c35-49bb-b5f9-bb5d21037c88)
+
 •	Backend Developer – 
 -----
 •	Assigned To: Tahmid Hasan Rafi (41230100808)
@@ -74,7 +76,7 @@ Objectives: Focuses on blockchain logic and Python-based cryptocurrency platform
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
-![workflow](https://github.com/user-attachments/assets/e7862118-734c-4523-b8e5-b1bf833b9ed7)
+![Backend](https://github.com/user-attachments/assets/4e95bebf-633f-46b1-82bd-acfcb423a03f)
 
 
 •	Frontend Developer – 
@@ -93,8 +95,7 @@ Objectives: Manages MySQL setup, user account handling, and integration with the
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
-![database](https://github.com/user-attachments/assets/1c008c63-db1e-4a85-aec2-b7b3422a7255)
-
+![database](https://github.com/user-attachments/assets/7c3e8c56-3cff-472e-9208-5f06b2afb546)
 
 •	Quality Assurance (QA) and Documentation – 
 -----
