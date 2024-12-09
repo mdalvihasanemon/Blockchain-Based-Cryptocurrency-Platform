@@ -74,6 +74,9 @@ Objectives: Focuses on blockchain logic and Python-based cryptocurrency platform
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
+![workflow](https://github.com/user-attachments/assets/e7862118-734c-4523-b8e5-b1bf833b9ed7)
+
+
 •	Frontend Developer – 
 -----
 •	Assigned To: Alvi Hasan Emon (41230100821)
