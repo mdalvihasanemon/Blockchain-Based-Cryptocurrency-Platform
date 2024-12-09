@@ -29,11 +29,15 @@ Objectives: Oversees project progress and ensures deadlines are met.
 
 Objectives: Focuses on blockchain logic and Python-based cryptocurrency platform enhancements.
 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
 •	Frontend Developer – 
 -----
 •	Assigned To: Alvi Hasan Emon (41230100821)
 
 Objectives: Builds and styles the UI using HTML, CSS, and JavaScript.
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
 •	Database Developer – 
 -----
@@ -41,11 +45,15 @@ Objectives: Builds and styles the UI using HTML, CSS, and JavaScript.
 
 Objectives: Manages MySQL setup, user account handling, and integration with the backend.
 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
 •	Quality Assurance (QA) and Documentation – 
 -----
 •	Assigned To: Abida Hossain Shrabonti (41230100800)
 
 Objectives: Handles testing, debugging, and preparing documentation. This member also assists in preparing the final presentation and video.
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
 
 •	Revenue Streams
