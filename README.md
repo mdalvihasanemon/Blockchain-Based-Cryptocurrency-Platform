@@ -19,7 +19,9 @@ In this project, the Fetch API enables real-time data exchange between the front
 ----- 
 •	Assigned To Al-Amin Islam (41230100639)
 
-Objectives: Oversees project progress, ensures deadlines are met, and consolidates weekly reports for faculty.
+Objectives: Oversees project progress and ensures deadlines are met.
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
 •	Backend Developer – 
 -----
