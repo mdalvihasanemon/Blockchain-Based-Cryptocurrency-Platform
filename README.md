@@ -3,7 +3,7 @@
 ## RAT-Buy & Sell Digital Assets In The RAT Crypto
 -------
 
-## Project Layout
+### Project Layout
 
 The platform is built with a robust architecture comprising:
 
@@ -26,7 +26,7 @@ The project introduces user challenges for blockchain mining, making it more int
 
 -----
 
-## Tools and Technologies
+# Tools and Technologies
 
 <table style="width: 100%; border-collapse: collapse;">
   <thead>
@@ -101,7 +101,7 @@ The project introduces user challenges for blockchain mining, making it more int
 
 --------
 
-## Collective Strategy
+# Collective Strategy
 
 
 ### Team Roles and Objectives
@@ -122,7 +122,7 @@ The project introduces user challenges for blockchain mining, making it more int
 |-------------|-------------|
 | **Project Name** | RAT-Buy & Sell Digital Assets In The RAT Crypto |
 | **Category** | Frontend |
-| **Frontend Repository** | [Frontend Code on GitHub](https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c) |
+| **Frontend** |  (https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c) |
 | **Description** | This project provides a platform for users to buy and sell digital assets within the RAT Crypto ecosystem, built with frontend technologies. |
 | **Video Demo** | <video width="640" height="360" autoplay loop muted><source src="https://example.com/your-video.mp4" type="video/mp4"></video> |
 | **Installation Steps** | 1. Clone the repository: `git clone https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c` <br> 2. Navigate into the project directory: `cd rat-frontend` <br> 3. Install dependencies: `npm install` <br> 4. Start the development server: `npm start` |
@@ -135,7 +135,7 @@ The project introduces user challenges for blockchain mining, making it more int
 
 ----------
 
-### Revenue Streams, Societal Impact, and Challenges/Risks
+# Revenue Streams, Societal Impact, and Challenges/Risks
 
 | **Category**              | **Topic**                | **Description**                                                                            |
 |---------------------------|--------------------------|--------------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ The project introduces user challenges for blockchain mining, making it more int
 
 ---
 
-## Conclusion
+# Conclusion
 
 This project aims to create a decentralized and inclusive financial ecosystem by combining blockchain security with user-friendly design. It seeks to promote blockchain adoption and enhance financial inclusion globally through responsible practices and ongoing innovation.
 
