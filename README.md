@@ -122,9 +122,8 @@ The project introduces user challenges for blockchain mining, making it more int
 |-------------|-------------|
 | **Project Name** | RAT-Buy & Sell Digital Assets In The RAT Crypto |
 | **Category** | Frontend |
-| **Frontend** |  [Click and watch how work Frontend](https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c) |
 | **Description** | This project provides a platform for users to buy and sell digital assets within the RAT Crypto ecosystem, built with frontend technologies. |
-| **Video Demo** | <video width="640" height="360" autoplay loop muted><source src="https://example.com/your-video.mp4" type="video/mp4"></video> |
+| **Video Demo** | [Watch the demo video](https://github.com/user-attachments/assets/55773bc6-2818-40f7-9411-be8eb1b05e71) |
 | **Installation Steps** | 1. Clone the repository: `git clone https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c` <br> 2. Navigate into the project directory: `cd rat-frontend` <br> 3. Install dependencies: `npm install` <br> 4. Start the development server: `npm start` |
 | **Technologies Used** | HTML, CSS, JavaScript (React or Vanilla JS), and other dependencies (list as needed) |
 | **Key Features** | - **Landing Page**: Overview of RAT Crypto. <br> - **Login**: Secure authentication. <br> - **Dashboard**: Display of assets and transactions. <br> - **Multi-Wallet**: Manage multiple wallets. <br> - **Exchange**: Real-time asset trading. <br> - **Transaction**: View transaction details. <br> - **Edit Profile**: Update personal details. <br> - **Help**: Access FAQs and support. <br> - **Responsive Design**:  (Web and Moblie friendly UI). |
