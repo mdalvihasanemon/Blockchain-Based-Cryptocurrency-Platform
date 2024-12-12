@@ -10,16 +10,19 @@ The platform is built with a robust architecture comprising:
 -------
 
 ### Key Features
+-------
 
 1. **Blockchain Functionality:** Implements secure transaction validation and decentralized ledger management.
 2. **Dynamic Web Interface:** Ensures intuitive user experience for transactions and mining.
 3. **Real-Time Communication:** Utilizes the Fetch API to enable instant balance updates and transaction feedback.
 4. **Local Deployment:** Designed for local host setup, providing a controlled environment for development and testing.
 
+------
 ### Enhanced Mining Challenges
 
 The project introduces user challenges for blockchain mining, making it more interactive and rewarding for participants while reinforcing the network’s security and operational integrity.
 
+-----
 ## Tools and Technologies
 
 <table style="width: 100%; border-collapse: collapse;">
@@ -93,6 +96,7 @@ The project introduces user challenges for blockchain mining, making it more int
   </tbody>
 </table>
 
+--------
 ## Collective Strategy
 
 ---
