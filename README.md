@@ -100,8 +100,6 @@ The project introduces user challenges for blockchain mining, making it more int
 
 ## Collective Strategy
 
-Got it! Here's a table-like structure that lists the roles, objectives, LinkedIn links, and images for each team member:
-
 ---
 
 ### Team Roles and Objectives
