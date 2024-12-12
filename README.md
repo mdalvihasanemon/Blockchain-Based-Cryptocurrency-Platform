@@ -106,31 +106,28 @@ The project introduces user challenges for blockchain mining, making it more int
 
 | **Role**                                | **Assigned To**                                   | **Objectives**                                                                                                                                           | **LinkedIn**                                                                                                                                              | **Image**                                                                                                                                               |
 |-----------------------------------------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Team Lead/Project Coordinator**       | Al-Amin Islam (41230100639)                       | Oversees project milestones, ensures timely delivery, and coordinates between team members.                                                              | [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)                     | ![workflow](https://github.com/user-attachments/assets/ac4ac758-9c35-49bb-b5f9-bb5d21037c88)                                                           |
+| **Team Lead/Project Coordinator**       | Al-Amin Islam (41230100639)                       | Oversees project milestones, ensures timely delivery, and coordinates between team members.                                                              | [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/al-aminislam)                     | ![workflow](https://github.com/user-attachments/assets/ac4ac758-9c35-49bb-b5f9-bb5d21037c88)                                                           |
 | **Backend Developer**                   | Tahmid Hasan Rafi (41230100808)                   | Develop and optimize blockchain logic and enhance the cryptocurrency framework.                                                                          | [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)                     | ![Backend](https://github.com/user-attachments/assets/4e95bebf-633f-46b1-82bd-acfcb423a03f)                                                            |
-| **Frontend Developer**                  | Alvi Hasan Emon (41230100821)                     | Designs and styles the UI, ensuring a seamless and responsive user experience.                                                                          | [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)                     | ![UI](https://github.com/user-attachments/assets/59e52e35-6f72-44f3-a533-638b70497c12)                                                                |
+| **Frontend Developer**                  | Alvi Hasan Emon (41230100821)                     | Designs and styles the UI, ensuring a seamless and responsive user experience.                                                                          | [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alvi-hasan-emon)                     | ![UI](https://github.com/user-attachments/assets/59e52e35-6f72-44f3-a533-638b70497c12)                                                                |
 | **Database Developer**                  | Tnha Zaman (41230100815)                          | Manages database integration, ensuring robust data handling and transaction integrity.                                                                  | [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)                     | ![database](https://github.com/user-attachments/assets/7c3e8c56-3cff-472e-9208-5f06b2afb546)                                                          |
-| **Quality Assurance (QA) and Documentation** | Abida Hossain Shrabonti (41230100800)              | Conduct testing, debugging, and documentation. Assists in the final presentation and video preparation.                                                   | [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)                     | ![QA](https://github.com/user-attachments/assets/a74410cd-40eb-4cf9-8691-96aa7711ba15)                                                                  |
+| **Quality Assurance (QA) and Documentation** | Abida Hossain Shrabonti (41230100800)              | Conduct testing, debugging, and documentation. Assists in the final presentation and video preparation.                                                   | [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abida-shrabonti-010939323)                     | ![QA](https://github.com/user-attachments/assets/a74410cd-40eb-4cf9-8691-96aa7711ba15)                                                                  |
 
 ---
 
-## Revenue Streams
+### Revenue Streams, Societal Impact, and Challenges/Risks
 
-1. **Transaction Fees:** Charges for coin transfers.
-2. **Premium Memberships:** Offers enhanced mining rewards and advanced features.
-3. **Ad Placements:** Generates passive income via partnerships.
+| **Category**              | **Topic**                | **Description**                                                                            |
+|---------------------------|--------------------------|--------------------------------------------------------------------------------------------|
+| **Revenue Streams**        | **Transaction Fees**      | Charges for coin transfers.                                                                |
+|                           | **Premium Memberships**   | Offers enhanced mining rewards and advanced features.                                       |
+|                           | **Ad Placements**         | Generates passive income via partnerships.                                                 |
+| **Societal Impact**        | **Financial Inclusion**   | This platform fosters financial inclusion by providing decentralized access to secure transactions and mining. |
+|                           | **Empowerment**           | It empowers individuals in underbanked regions to participate in the digital economy, bridging gaps in global economic systems. |
+| **Challenges and Risks**   | **Misuse Potential**      | Decentralization may enable illicit transactions.                                           |
+|                           | **Environmental Concerns**| Blockchain mining’s energy consumption poses sustainability challenges.                     |
+|                           | **Security Threats**      | Robust measures must be maintained to protect user assets and data.                        |
 
-## Societal Impact
-
-This platform fosters financial inclusion by providing decentralized access to secure transactions and mining. It empowers individuals in underbanked regions to participate in the digital economy, bridging gaps in global economic systems.
-
-## Challenges and Risks
-
-- **Misuse Potential:** Decentralization may enable illicit transactions.
-- **Environmental Concerns:** Blockchain mining’s energy consumption poses sustainability challenges.
-- **Security Threats:** Robust measures must be maintained to protect user assets and data.
-
+---
 ## Conclusion
 
-This project is an innovative step towards creating a decentralized and inclusive financial ecosystem. Blending blockchain security with user-friendly design holds the potential to transform the digital economy. Through responsible practices and continuous innovation, the platform aspires to drive blockchain adoption and financial inclusion worldwide.
-
+This project aims to create a decentralized and inclusive financial ecosystem by combining blockchain security with user-friendly design. It seeks to promote blockchain adoption and enhance financial inclusion globally through responsible practices and ongoing innovation.
