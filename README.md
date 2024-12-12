@@ -27,41 +27,51 @@ The project introduces user challenges for blockchain mining, making it more int
 
 ### Languages
 
-[![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)  
-[![HTML5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
-[![CSS3](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)  
-[![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+| ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![HTML5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![CSS3](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
+|---------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| [Python](https://www.python.org/)            | [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)            | [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)             | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)             |
 
 ### Framework
 
-[![Flask](https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+| ![Flask](https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white) |
+|-------------------------------------------------|
+| [Flask](https://flask.palletsprojects.com/) |
 
 ### Database
 
-[![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+| ![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
+|----------------------------------------------|
+| [MySQL](https://www.mysql.com/) |
 
 ### API
 
-[![Fetch API](https://img.shields.io/badge/fetch--api-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+| ![Fetch API](https://img.shields.io/badge/fetch--api-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) |
+|-------------------------------------------------------------|
+| [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) |
 
 ### IDEs
 
-[![PyCharm](https://img.shields.io/badge/pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)](https://www.jetbrains.com/pycharm/)  
-[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+| ![PyCharm](https://img.shields.io/badge/pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white) | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) |
+|------------------------------------------------------------|------------------------------------------------------------|
+| [PyCharm](https://www.jetbrains.com/pycharm/)              | [VS Code](https://code.visualstudio.com/) |
 
 ### Local Server
 
-[![XAMPP](https://img.shields.io/badge/xampp-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)](https://www.apachefriends.org/)  
-[![Ganache](https://img.shields.io/badge/ganache-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://trufflesuite.com/ganache/)
+| ![XAMPP](https://img.shields.io/badge/xampp-FB7A24?style=for-the-badge&logo=xampp&logoColor=white) | ![Ganache](https://img.shields.io/badge/ganache-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white) |
+|----------------------------------------------------|----------------------------------------------------------|
+| [XAMPP](https://www.apachefriends.org/)             | [Ganache](https://trufflesuite.com/ganache/) |
 
 ### UI/UX
 
-[![Figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
+| ![Figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) |
+|-------------------------------------------|
+| [Figma](https://www.figma.com/)           |
 
 ### Testing OS
 
-[![Windows 11](https://img.shields.io/badge/windows_11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/en-us/windows/windows-11)
-
+| ![Windows 11](https://img.shields.io/badge/windows_11-0078D6?style=for-the-badge&logo=windows&logoColor=white) |
+|---------------------------------------------------------|
+| [Windows 11](https://www.microsoft.com/en-us/windows/windows-11) |
 ## Collective Strategy
 
 ### Team Roles and Objectives
@@ -77,6 +87,7 @@ The project introduces user challenges for blockchain mining, making it more int
 
 - **Assigned To:** Tahmid Hasan Rafi (41230100808)
 - **Objectives:** Develop and optimize blockchain logic and enhance the cryptocurrency framework.
+  
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 ![Backend](https://github.com/user-attachments/assets/4e95bebf-633f-46b1-82bd-acfcb423a03f)
 
@@ -84,6 +95,7 @@ The project introduces user challenges for blockchain mining, making it more int
 
 - **Assigned To:** Alvi Hasan Emon (41230100821)
 - **Objectives:** Designs and styles the UI, ensuring a seamless and responsive user experience.
+  
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 ![UI](https://github.com/user-attachments/assets/59e52e35-6f72-44f3-a533-638b70497c12)
 
