@@ -1,9 +1,5 @@
 # Blockchain-Based Cryptocurrency Platform
-
-## Project Prologue
-
-This project introduces a blockchain-based cryptocurrency platform that facilitates secure transactions, efficient coin mining, and user interaction through an engaging and dynamic web interface. By leveraging the power of blockchain technology, the platform ensures transparency, security, and decentralization, fostering trust among its users.
-
+------
 ## Project Layout
 
 The platform is built with a robust architecture comprising:
@@ -11,6 +7,7 @@ The platform is built with a robust architecture comprising:
 - **Backend:** Python-powered blockchain logic ensures secure and seamless cryptocurrency operations.
 - **Database:** MySQL is utilized for efficient data management, including transaction records, user accounts, and mining data.
 - **Frontend:** A user-friendly interface created with HTML, CSS, and JavaScript enhances accessibility and engagement.
+-------
 
 ### Key Features
 
@@ -22,8 +19,6 @@ The platform is built with a robust architecture comprising:
 ### Enhanced Mining Challenges
 
 The project introduces user challenges for blockchain mining, making it more interactive and rewarding for participants while reinforcing the network’s security and operational integrity.
-
-## Tools and Technologies
 
 ## Tools and Technologies
 
