@@ -25,53 +25,92 @@ The project introduces user challenges for blockchain mining, making it more int
 
 ## Tools and Technologies
 
-### Languages
+<div style="display: flex; gap: 50px; align-items: center;">
+  <h3 style="margin: 0;">Languages</h3>
+  <div style="display: flex; gap: 10px;">
+    <a href="https://www.python.org/">
+      <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+      <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+      <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+      <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+    </a>
+  </div>
+</div>
 
-| ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![HTML5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![CSS3](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
-|---------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-| [Python](https://www.python.org/)            | [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)            | [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)             | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)             |
+<div style="display: flex; gap: 50px; align-items: center;">
+  <h3 style="margin: 0;">Framework</h3>
+  <div style="display: flex; gap: 10px;">
+    <a href="https://flask.palletsprojects.com/">
+      <img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+    </a>
+  </div>
+</div>
 
-### Framework
+<div style="display: flex; gap: 50px; align-items: center;">
+  <h3 style="margin: 0;">Database</h3>
+  <div style="display: flex; gap: 10px;">
+    <a href="https://www.mysql.com/">
+      <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+    </a>
+  </div>
+</div>
 
-| ![Flask](https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white) |
-|-------------------------------------------------|
-| [Flask](https://flask.palletsprojects.com/) |
+<div style="display: flex; gap: 50px; align-items: center;">
+  <h3 style="margin: 0;">API</h3>
+  <div style="display: flex; gap: 10px;">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">
+      <img src="https://img.shields.io/badge/fetch--api-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Fetch API">
+    </a>
+  </div>
+</div>
 
-### Database
+<div style="display: flex; gap: 50px; align-items: center;">
+  <h3 style="margin: 0;">IDEs</h3>
+  <div style="display: flex; gap: 10px;">
+    <a href="https://www.jetbrains.com/pycharm/">
+      <img src="https://img.shields.io/badge/pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm">
+    </a>
+    <a href="https://code.visualstudio.com/">
+      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+    </a>
+  </div>
+</div>
 
-| ![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
-|----------------------------------------------|
-| [MySQL](https://www.mysql.com/) |
+<div style="display: flex; gap: 50px; align-items: center;">
+  <h3 style="margin: 0;">Local Server</h3>
+  <div style="display: flex; gap: 10px;">
+    <a href="https://www.apachefriends.org/">
+      <img src="https://img.shields.io/badge/xampp-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP">
+    </a>
+    <a href="https://trufflesuite.com/ganache/">
+      <img src="https://img.shields.io/badge/ganache-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ganache">
+    </a>
+  </div>
+</div>
 
-### API
+<div style="display: flex; gap: 50px; align-items: center;">
+  <h3 style="margin: 0;">UI/UX</h3>
+  <div style="display: flex; gap: 10px;">
+    <a href="https://www.figma.com/">
+      <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
+    </a>
+  </div>
+</div>
 
-| ![Fetch API](https://img.shields.io/badge/fetch--api-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) |
-|-------------------------------------------------------------|
-| [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) |
-
-### IDEs
-
-| ![PyCharm](https://img.shields.io/badge/pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white) | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) |
-|------------------------------------------------------------|------------------------------------------------------------|
-| [PyCharm](https://www.jetbrains.com/pycharm/)              | [VS Code](https://code.visualstudio.com/) |
-
-### Local Server
-
-| ![XAMPP](https://img.shields.io/badge/xampp-FB7A24?style=for-the-badge&logo=xampp&logoColor=white) | ![Ganache](https://img.shields.io/badge/ganache-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white) |
-|----------------------------------------------------|----------------------------------------------------------|
-| [XAMPP](https://www.apachefriends.org/)             | [Ganache](https://trufflesuite.com/ganache/) |
-
-### UI/UX
-
-| ![Figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) |
-|-------------------------------------------|
-| [Figma](https://www.figma.com/)           |
-
-### Testing OS
-
-| ![Windows 11](https://img.shields.io/badge/windows_11-0078D6?style=for-the-badge&logo=windows&logoColor=white) |
-|---------------------------------------------------------|
-| [Windows 11](https://www.microsoft.com/en-us/windows/windows-11) |
+<div style="display: flex; gap: 50px; align-items: center;">
+  <h3 style="margin: 0;">Testing OS</h3>
+  <div style="display: flex; gap: 10px;">
+    <a href="https://www.microsoft.com/en-us/windows/windows-11">
+      <img src="https://img.shields.io/badge/windows_11-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 11">
+    </a>
+  </div>
+</div>
 ## Collective Strategy
 
 ### Team Roles and Objectives
