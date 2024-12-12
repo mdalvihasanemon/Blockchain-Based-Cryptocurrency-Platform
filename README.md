@@ -130,3 +130,8 @@ The project introduces user challenges for blockchain mining, making it more int
 ## Conclusion
 
 This project aims to create a decentralized and inclusive financial ecosystem by combining blockchain security with user-friendly design. It seeks to promote blockchain adoption and enhance financial inclusion globally through responsible practices and ongoing innovation.
+
+| **RAT-Buy & Sell digital Assets In The RAT Crypto** | **Frontend** | 
+https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c  |
+
+
