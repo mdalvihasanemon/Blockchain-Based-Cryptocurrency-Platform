@@ -131,7 +131,21 @@ The project introduces user challenges for blockchain mining, making it more int
 
 This project aims to create a decentralized and inclusive financial ecosystem by combining blockchain security with user-friendly design. It seeks to promote blockchain adoption and enhance financial inclusion globally through responsible practices and ongoing innovation.
 
-| **RAT-Buy & Sell digital Assets In The RAT Crypto** | **Frontend** | 
-https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c  |
+-----
+
+# RAT-Buy & Sell Digital Assets In The RAT Crypto - Frontend
+
+| **Feature** | **Details** |
+|-------------|-------------|
+| **Project Name** | RAT-Buy & Sell Digital Assets In The RAT Crypto |
+| **Category** | Frontend |
+| **Frontend Repository** | [Frontend Code on GitHub](https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c) |
+| **Description** | This project provides a platform for users to buy and sell digital assets within the RAT Crypto ecosystem, built with frontend technologies. |
+| **Installation Steps** | 1. Clone the repository: `git clone https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c` <br> 2. Navigate into the project directory: `cd rat-frontend` <br> 3. Install dependencies: `npm install` <br> 4. Start the development server: `npm start` |
+| **Technologies Used** | HTML, CSS, JavaScript (React or Vanilla JS), and other dependencies (list as needed) |
+| **Key Features** | - User Authentication (Login/Registration system) <br> - Dashboard (User's digital asset balance and transactions) <br> - Buy/Sell (Ability to trade assets) <br> - Responsive Design (Mobile-friendly UI) |
+| **Contributing** | 1. Fork the repository. <br> 2. Create a new branch (`git checkout -b feature-branch`). <br> 3. Make changes and commit (`git commit -am 'Add new feature'`). <br> 4. Push the branch (`git push origin feature-branch`). <br> 5. Open a Pull Request. |
+| **License** | MIT License - see [LICENSE](LICENSE) file for details. |
+
 
 
