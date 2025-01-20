@@ -121,20 +121,46 @@ The project introduces user challenges for blockchain mining, making it more int
 
 -----
 
-# RAT-Buy & Sell Digital Assets In The RAT Crypto - Frontend
 
-| **Feature** | **Details** |
-|-------------|-------------|
-| **Project Name** | RAT-Buy & Sell Digital Assets In The RAT Crypto |
-| **Category** | Frontend |
-| **Description** | This project provides a platform for users to buy and sell digital assets within the RAT Crypto ecosystem, built with frontend technologies. |
-| **Video Demo** | [Watch the demo video](https://github.com/user-attachments/assets/26bd7daa-7eb4-4d82-bcd3-044d1fb48471) |
-| **Installation Steps** | 1. Clone the repository: `git clone https://github.com/user-attachments/assets/14590b98-e6fe-4488-9ccd-8becbc96cc2c` <br> 2. Navigate into the project directory: `cd rat-frontend` <br> 3. Install dependencies: `npm install` <br> 4. Start the development server: `npm start` |
-| **Technologies Used** | HTML, CSS, JavaScript (React or Vanilla JS), and other dependencies (list as needed) |
-| **Key Features** | - **Landing Page**: Overview of RAT Crypto. <br> - **Login**: Secure authentication. <br> - **Dashboard**: Display of assets and transactions. <br> - **Multi-Wallet**: Manage multiple wallets. <br> - **Exchange**: Real-time asset trading. <br> - **Transaction**: View transaction details. <br> - **Edit Profile**: Update personal details. <br> - **Help**: Access FAQs and support. <br> - **Responsive Design**:  (Web and Moblie friendly UI). |
-| **Contributing** | 1. Fork the repository. <br> 2. Create a new branch (`git checkout -b feature-branch`). <br> 3. Make changes and commit (`git commit -am 'Add new feature'`). <br> 4. Push the branch (`git push origin feature-branch`). <br> 5. Open a Pull Request. |
-| **License** | MIT License - see [LICENSE](LICENSE) file for details. |
+---
 
+## RAT-Crypto: Digital Asset Trading Platform
+
+### Frontend Overview
+
+| **Feature**                | **Description**                                                                                                                                                           |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Project Name**           | RAT-Crypto Digital Asset Trading Platform (Frontend)                                                                                                                      |
+| **Category**               | Frontend                                                                                                                                                                  |
+| **Technologies Used**      | HTML, CSS, JavaScript (React or Vanilla JS)                                                                                                                                |
+| **Key Features**           | - **Landing Page:** Overview of RAT Crypto. <br> - **Login:** Secure user authentication. <br> - **Dashboard:** Displays asset overview. <br> - **Multi-Wallet Management:** Manage multiple wallets. <br> - **Real-Time Exchange:** Live asset trading. <br> - **Responsive Design:** Web and mobile optimized UI. |
+
+---
+
+### Backend Overview
+
+| **Feature**                | **Description**                                                                                                                                                           |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Project Name**           | RAT-Crypto Digital Asset Trading Platform (Backend)                                                                                                                     |
+| **Technologies Used**      | Python, Flask, SQLAlchemy, PostgreSQL, Blockchain, JWT (JSON Web Tokens)                                                                                                  |
+| **Key Features**           | - **Blockchain Integration:** Secure transaction handling and ledger management. <br> - **User Authentication:** JWT-based secure authentication system. <br> - **Transaction Handling:** Buy/sell transactions for digital assets. <br> - **API Endpoints:** Exposes necessary API routes for frontend interaction. <br> - **Logging and Error Handling:** Advanced logging system for monitoring and debugging. |
+
+---
+
+### Main Backend Files
+
+| **File Name**              | **Description**                                                                                                                                                           |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **blockchain.py**          | Contains the blockchain transaction logic, including mining, transaction processing, and blockchain overview. <br> - **Mining:** Handles new block creation. <br> - **Transactions:** Processes transaction requests. <br> - **Blockchain Overview:** Provides a view of the blockchain. |
+| **app.py**                 | Manages Flask routes, user authentication, and API endpoints. <br> - **User Authentication:** Handles login and registration flows. <br> - **API Routes:** Includes endpoints for wallet management, mining, and transactions. <br> - **Security:** Provides features like password hashing and secure password changes. |
+
+---
+
+### License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
+
+---
 
 
 ----------
