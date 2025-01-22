@@ -1,3 +1,4 @@
+
 from flask import Flask, url_for, render_template, request, redirect, session, flash
 from flask_bcrypt import Bcrypt
 from flask_mysqldb import MySQL
