@@ -180,10 +180,10 @@ cd RAT-Crypto
   pip install -r requirements.txt
   ```
 - **Setup Database:**  
-  1. Open MySQL and create a database named `rat_crypto`.  
+  1. Open MySQL and create a database named `rat2`.  
   2. Import the provided SQL file:  
      ```bash
-     mysql -u <username> -p rat_crypto < database/rat_crypto.sql
+     mysql -u <username> -p rat2 < database/rat.sql
      ```
 - **Run Flask Server:**  
   ```bash
