@@ -153,14 +153,122 @@ The project introduces user challenges for blockchain mining, making it more int
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **blockchain.py**          | Contains the blockchain transaction logic, including mining, transaction processing, and blockchain overview. <br> - **Mining:** Handles new block creation. <br> - **Transactions:** Processes transaction requests. <br> - **Blockchain Overview:** Provides a view of the blockchain. |
 | **app.py**                 | Manages Flask routes, user authentication, and API endpoints. <br> - **User Authentication:** Handles login and registration flows. <br> - **API Routes:** Includes endpoints for wallet management, mining, and transactions. <br> - **Security:** Provides features like password hashing and secure password changes. |
+# Setup Guide
+
+### Prerequisites  
+Ensure the following tools and dependencies are installed on your system:  
+- **Python 3.9+**  
+- **MySQL Server**  
+- **Node.js (for frontend builds)**  
+- **Flask (Python framework)**  
+- **XAMPP (for local MySQL server)**  
+- **Figma (optional, for UI design edits)**  
 
 ---
 
-### License
+### Steps to Setup
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
+#### 1. **Clone the Repository**  
+```bash
+git clone https://github.com/your-repo/RAT-Crypto.git
+cd RAT-Crypto
+```
+
+#### 2. **Setup Backend Environment**  
+- **Install Python Dependencies:**  
+  ```bash
+  pip install -r requirements.txt
+  ```
+- **Setup Database:**  
+  1. Open MySQL and create a database named `rat_crypto`.  
+  2. Import the provided SQL file:  
+     ```bash
+     mysql -u <username> -p rat_crypto < database/rat_crypto.sql
+     ```
+- **Run Flask Server:**  
+  ```bash
+  python app.py
+  ```
+  Backend should now be running at `http://localhost:5000`.
 
 ---
+#### 3. **Setup Frontend Environment**  
+- **Install Node.js Dependencies:**  
+  Navigate to the frontend folder:  
+  ```bash
+  cd frontend
+  npm install
+  ```
+- **Build the Frontend:**  
+  ```bash
+  npm run build
+  ```
+- **Start Development Server:**  
+  ```bash
+  npm start
+  ```
+  Frontend will be accessible at `http://localhost:3000`.
+
+---
+
+#### 4. **Run and Test the Application**  
+- Access the platform at `http://localhost:3000` for the user interface.  
+- Use the backend API at `http://localhost:5000/api`.  
+
+---
+
+### Optional Configurations  
+
+- **Environment Variables:**  
+  Create a `.env` file in the root directory to configure sensitive settings like API keys, database credentials, and JWT secrets.  
+  Example:  
+  ```env
+  FLASK_SECRET_KEY=your_secret_key
+  DATABASE_URL=mysql+pymysql://user:password@localhost/rat_crypto
+  JWT_SECRET=your_jwt_secret
+  ```
+
+- **Testing:**  
+  Run unit tests to ensure functionality:  
+  ```bash
+  pytest
+  ```
+
+---
+
+### Common Issues and Fixes  
+
+1. **Python Dependency Errors:**  
+   Ensure `pip` is updated:  
+   ```bash
+   python -m pip install --upgrade pip
+   ```
+
+2. **Database Connection Issues:**  
+   Verify MySQL service is running and credentials are correct in `.env`.
+
+3. **Frontend Build Errors:**  
+   Ensure you have the latest Node.js and npm versions. Update if needed:  
+   ```bash
+   npm install -g npm@latest
+   ```
+
+---
+# RATCoin Vs Bitcoin
+| **Aspect**             | **RAT COIN**                                    | **Bitcoin (BTC)**                                          |
+|-------------------------|------------------------------------------------|-----------------------------------------------------------|
+| **Consensus**          | Proof-of-Capacity (PoC)                        | Proof-of-Work (PoW)                                       |
+| **Mining**             | Fixed 50 coins, simple hash checks             | Reward halves every ~4 years, complex hash puzzles        |
+| **Network**            | Centralized, single server                     | Decentralized, global peer-to-peer                        |
+| **Storage**            | In-memory list                                 | Distributed ledger across nodes                          |
+| **Transactions**       | Basic: sender, recipient, amount               | Advanced: fees, multi-input/output, cryptographic proofs |
+| **Security**           | Basic hash validation                          | Public-key cryptography (ECDSA)                          |
+| **Supply**             | Unlimited                                      | Capped at 21 million coins                                |
+| **Usage**              | Educational or experimental                    | Global currency and investment asset                     |
+| **Anonymity**          | Fully transparent                              | Pseudonymous via public keys                              |
+| **Scalability**        | Limited to single node                         | Lightning Network, SegWit for scalability                |
+| **Cryptography**       | Basic SHA-256                                  | SHA-256, RIPEMD-160, elliptic-curve                      |
+| **Ledger Type**        | Centralized                                    | Fully distributed                                         |
 
 
 ----------
@@ -183,4 +291,10 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 # Conclusion
 
 This project aims to create a decentralized and inclusive financial ecosystem by combining blockchain security with user-friendly design. It seeks to promote blockchain adoption and enhance financial inclusion globally through responsible practices and ongoing innovation.
+### License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
+
+---
+
 
