@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="shortcut icon" href="static/images/logo.png" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        /* General Reset */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: url(../static/images/Thumbnail.jpg) no-repeat center center;
+            background-size: cover;
+        }
+
+        /* Form Container */
+        .edit-profile-form {
+            position: relative;
+            width: 120%;
+            max-width: 500px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .edit-profile-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #e4e712;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #444;
+            font-weight: 600;
+        }
+
+        .form-group input {
+            width: 96%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .form-actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .form-actions .btn {
+            padding: 10px 20px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn-save {
+            background-color: #8e998f;
+            color: white;
+        }
+
+        .btn-cancel {
+            background-color: #dc3545;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .btn:hover {
+            background-color: #0d0e0d;
+        }
+    </style>
+</head>
+<body>
+    <!-- Particles Container -->
+    <div id="particles-js"></div>
+
+    <!-- Form -->
+    <form class="edit-profile-form" id="edit-profile-form" method="POST" enctype="multipart/form-data">
+        <h2>Edit Profile</h2>
+        
+        <!-- Name Field -->
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
+        </div>
+
+        <!-- email -->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email" />
+        </div>
+
+        <!-- Seed for Reset Password -->
+        <div class="form-group">
+            <label for="seed">Seed for Reset Password</label>
+            <input type="text" id="seed" name="seed" placeholder="Enter your seed for reset password" />
+        </div>
+        
+        <!-- Password -->
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter a new password" />
+        </div>
+        
+        <!-- Profile Picture -->
+        <div class="form-group">
+            <label for="profile-picture">Profile Picture</label>
+            <input type="file" id="profile-picture" name="profile-picture" accept="image/*" />
+        </div>
+        
+        <!-- Save and Cancel Buttons -->
+        <div class="form-actions">
+            <button type="submit" class="btn btn-save">Save Changes</button>
+            <button type="button" class="btn btn-cancel" onclick="window.location.href='/dashboard';">Cancel</button>
+        </div>
+    </form>
+
+    <!-- Particles.js Script -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 100, "density": { "enable": true, "value_area": 800 } },
+                "color": { "value": "#ffffff" },
+                "shape": { "type": "circle" },
+                "opacity": { "value": 0.5 },
+                "size": { "value": 3, "random": true },
+                "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 },
+                "move": { "enable": true, "speed": 2 }
+            },
+            "interactivity": { "events": { "onhover": { "enable": true, "mode": "repulse" } } },
+            "retina_detect": true
+        });
+
+        function validateForm() {
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const seed = document.getElementById('seed').value.trim();
+            const password = document.getElementById('password').value.trim();
+
+            if (!name && !seed && !password) {
+                alert('No changes made to update.');
+                return false;
+            }
+
+            if (seed && !password) {
+                alert('Please provide a new password to reset it.');
+                return false;
+            }
+
+            if (password && !seed) {
+                alert('Please provide the seed to reset your password.');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

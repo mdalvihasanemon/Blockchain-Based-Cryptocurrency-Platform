@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet - RatCoin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url(../static/images/Thumbnail.jpg) no-repeat center center;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .transaction-history {
+            margin: 20px 0;
+        }
+        
+        .transaction-history h3 {
+            background-color: #007bff; /* Blue background color */
+            color: white; /* White text color */
+            padding: 10px; /* Add padding for better appearance */
+            margin: 0; /* Remove default margin around the header */
+            border-radius: 5px; /* Optional: Adds rounded corners */
+        }
+
+        .scrollable-container {
+            max-height: 400px; /* Adjust the height as needed */
+            overflow-y: auto;
+            border: 1px solid #ddd; /* Optional border for better visibility */
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+       .transaction {
+           background-color: #ffecec;
+           padding: 10px;
+           margin-bottom: 10px;
+           border-radius: 5px;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            gap: 20px;
+        }
+        .main-content {
+            flex: 3;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .transactions-container {
+            flex: 1;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p, ul, li, label {
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .Back_to_home a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #ff4d4d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .Back_to_home a:hover {
+            text-decoration: underline;
+        }
+        .transaction {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .transaction.sent {
+            background-color: #ffe5e5;
+        }
+        .transaction.received {
+            background-color: #e5ffe5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header Section -->
+            <h1>Welcome, {{ name }}</h1>
+            <p><strong>Your current balance:</strong> {{ balance }} RAT-COIN</p>
+
+            <!-- Seed Phrase Section -->
+            <h2>Your Seed Phrase</h2>
+            <p><strong>Seed:</strong> {{ seed }}</p>
+
+            <!-- Addresses Section -->
+            <h2>Your Addresses</h2>
+            <ul>
+                {% if addresses %}
+                    {% for address in addresses %}
+                        <li>{{ address }}</li>
+                    {% endfor %}
+                {% else %}
+                    <li>No addresses available.</li>
+                {% endif %}
+            </ul>
+
+            <!-- Mine Coins Section -->
+            <h2>Mine RAT-COIN</h2>
+            <form method="POST" action="{{ url_for('mine') }}">
+                <button type="submit">Mine RAT-COIN</button>
+            </form>
+
+            <!-- Send Coins Section -->
+            <h2>Send RAT-COIN</h2>
+            <form method="POST" action="{{ url_for('send') }}">
+                <div class="form-group">
+                    <label for="recipient_address">Recipient Address:</label>
+                    <input type="text" id="recipient_address" name="recipient_address" placeholder="Enter recipient address" required>
+                </div>
+                <div class="form-group">
+                    <label for="amount">Amount:</label>
+                    <input type="number" id="amount" name="amount" step="0.01" min="0.01" placeholder="Enter amount" required>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+
+            <!-- Back_to_home -->
+            <div class="Back_to_home">
+                <a href="/dashboard" class="btn btn-primary" class="back-link"><i class="fa-solid fa-arrow-left"></i>Back to Home</a>
+            </div>
+        </div>
+
+        <!-- Transactions Section -->
+        <div class="transaction-history">
+            <h3>Transaction History</h3>
+            <div class="scrollable-container">
+                {% for transaction in transactions %}
+                    <div class="transaction">
+                        <p><strong>Sent by:</strong> {{ transaction[3] or "Unknown" }}</p>
+                        <p><strong>Sent to:</strong> {{ transaction[4] or "Unknown" }}</p>
+                        <p><strong>Recipient Address:</strong> {{ transaction[5] or "Unknown" }}</p>
+                        <p><strong>Amount:</strong> {{ transaction[1] }} RAT-COIN</p>
+                        <p><strong>Date:</strong> {{ transaction[2] }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>        
+        
+    </div>
+</body>
+</html>

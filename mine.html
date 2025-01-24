@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mining Interface</title>
+    <style>
+
+        .Back_to_home a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #ff4d4d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .Back_to_home a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+        
+    <form action="{{ url_for('mine', user_id=user_id) }}" method="post">
+        <button type="submit" class="btn btn-primary">Generate New Plots</button>
+    </form>
+    
+
+    <form action="{{ url_for('mine_block_route') }}" method="POST">
+        <button type="submit" class="btn btn-success">Start Mining</button>
+    </form>
+ 
+    <h1>Mining Interface</h1>
+
+    <!-- Display Flash Messages -->
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <!-- Back_to_home -->
+    <div class="Back_to_home">
+        <a href="/wallet" class="btn btn-primary" class="back-link"><i class="fa-solid fa-arrow-left"></i>Back to Home</a>
+    </div>
+    <h3>Challenge: {{ challenge }}</h3>
+
+    <h3>Your Plots:</h3>
+    {% if plots %}
+        <ul>
+            {% for plot in plots %}
+                <li>{{ plot }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No plots available. Generate new plots to start mining.</p>
+    {% endif %}
+
+   
+</div>
+</body>
+</html>
