@@ -16,13 +16,13 @@ The platform is built with a robust architecture comprising:
 - **Database:** MySQL is utilized for efficient data management, including transaction records, user accounts, and mining data.
 - **Frontend:** A user-friendly interface created with HTML, CSS, and JavaScript enhances accessibility and engagement.
 -------
+### Key Features  
 
-### Key Features
-
-1. **Blockchain Functionality:** Implements secure transaction validation and decentralized ledger management.
-2. **Dynamic Web Interface:** Ensures intuitive user experience for transactions and mining.
-3. **Real-Time Communication:** Utilizes the Fetch API to enable instant balance updates and transaction feedback.
-4. **Local Deployment:** Designed for local host setup, providing a controlled environment for development and testing.
+1. **Blockchain Functionality:** Implements secure transaction validation and decentralized ledger management.  
+2. **Dynamic Web Interface:** Ensures an intuitive user experience for transactions and mining.  
+3. **Real-Time Communication:** Utilizes the Fetch API to enable instant balance updates and transaction feedback.  
+4. **Local Deployment:** Designed for local host setup, providing a controlled environment for development and testing.  
+5. **POC Mining Feature:** Simulates transaction validation and cryptographic puzzle-solving, demonstrating the core principles of blockchain mining.  
 
 ------
 ### Enhanced Mining Challenges
@@ -158,11 +158,11 @@ The project introduces user challenges for blockchain mining, making it more int
 ### Prerequisites  
 Ensure the following tools and dependencies are installed on your system:  
 - **Python 3.9+**  
-- **MySQL Server**  
-- **Node.js (for frontend builds)**  
+- **MySQL Server**
+- **FrontEnd Required Extention on VS Code**
 - **Flask (Python framework)**  
 - **XAMPP (for local MySQL server)**  
-- **Figma (optional, for UI design edits)**  
+- **Figma (optional for UI design edits)**  
 
 ---
 
@@ -218,16 +218,35 @@ cd RAT-Crypto
 ---
 
 ### Optional Configurations  
-
 - **Environment Variables:**  
   Create a `.env` file in the root directory to configure sensitive settings like API keys, database credentials, and JWT secrets.  
   Example:  
   ```env
   FLASK_SECRET_KEY=your_secret_key
-  DATABASE_URL=mysql+pymysql://user:password@localhost/rat_crypto
+  DATABASE_URL=mysql+pymysql://user:password@localhost/rat-with-poc-mining
   JWT_SECRET=your_jwt_secret
+  ```  
+
+- **Virtual Environment:**  
+  Use a virtual environment (`venv`) to isolate dependencies for the project.  
+  Example:  
+  ```bash
+  python -m venv venv
+  source venv/bin/activate    # For Linux/macOS
+  venv\Scripts\activate       # For Windows
+  pip install -r requirements.txt
   ```
 
+- **Exclude Cache Files:**  
+  Add the `__pycache__/` and `venv/` directories to your `.gitignore` file to prevent unnecessary files from being tracked by Git.  
+  Example:  
+  ```
+  # Ignore virtual environment
+  venv/
+
+  # Ignore Python cache files
+  __pycache__/
+  ```  
 - **Testing:**  
   Run unit tests to ensure functionality:  
   ```bash
