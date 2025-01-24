@@ -170,8 +170,8 @@ Ensure the following tools and dependencies are installed on your system:
 
 #### 1. **Clone the Repository**  
 ```bash
-git clone https://github.com/your-repo/RAT-Crypto.git
-cd RAT-Crypto
+# Clone the GitHub repository
+git clone https://github.com/mdalvihasanemon/Blockchain-Based-Cryptocurrency-Platform.git
 ```
 
 #### 2. **Setup Backend Environment**  
@@ -183,8 +183,8 @@ cd RAT-Crypto
   1. Open MySQL and create a database named `rat2`.  
   2. Import the provided SQL file:  
      ```bash
-     mysql -u <username> -p rat2 < database/rat.sql
-     ```
+     mysql -u <username> -p rat2 < database/rat_with_poc_mining.sql
+```
 - **Run Flask Server:**  
   ```bash
   python app.py
@@ -223,7 +223,7 @@ cd RAT-Crypto
   Example:  
   ```env
   FLASK_SECRET_KEY=your_secret_key
-  DATABASE_URL=mysql+pymysql://user:password@localhost/rat-with-poc-mining
+  DATABASE_URL=mysql+pymysql://user:password@localhost/rat_with_poc_mining
   JWT_SECRET=your_jwt_secret
   ```  
 
