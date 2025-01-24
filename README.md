@@ -2,8 +2,7 @@
 ------
 ## RAT-Buy & Sell Digital Assets In The RAT Crypto
 
-https://github.com/user-attachments/assets/26bd7daa-7eb4-4d82-bcd3-044d1fb48471
-
+https://github.com/user-attachments/assets/558828fd-6bd7-44bd-a054-aa77daf7534e
 
 
 -------
