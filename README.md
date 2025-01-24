@@ -1,9 +1,7 @@
  # Blockchain-Based Cryptocurrency Platform
 ------
 ## RAT-Buy & Sell Digital Assets In The RAT Crypto
-
-https://github.com/user-attachments/assets/558828fd-6bd7-44bd-a054-aa77daf7534e
-
+https://github.com/user-attachments/assets/834dba0d-adbb-4985-9190-7ceb5abb17bb
 
 -------
 
