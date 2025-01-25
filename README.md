@@ -286,12 +286,17 @@ git clone https://github.com/mdalvihasanemon/Blockchain-Based-Cryptocurrency-Pla
    Ensure `pip` is updated:  
    ```bash
    python -m pip install --upgrade pip
+   pip install flask flask-bcrypt
+   pip install flask flask-mysqldb
    ```
 
 2. **Database Connection Issues:**  
    Verify MySQL service is running and credentials are correct in `.env`.
+   **Xampp** Mysql connection is lost then run this two command on your cmd
+   1. netstat -ano | findstr :3306
+      2. taskkill/ PID 6092( Please remember to enter your PID. Do not use this placeholder, as it will always differ for each user. ) /F
 
-3. **Frontend Build Errors:**  
+4. **Frontend Build Errors:**  
    Ensure you have the latest Node.js and npm versions. Update if needed:  
    ```bash
    npm install -g npm@latest
