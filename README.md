@@ -16,6 +16,30 @@ The platform is built with a robust architecture comprising:
 - **Database:** MySQL is utilized for efficient data management, including transaction records, user accounts, and mining data.
 - **Frontend:** A user-friendly interface created with HTML, CSS, and JavaScript enhances accessibility and engagement.
 -------
+
+## 📂 **Project file  Structure**  
+ Main project File Name ## **RAT with PoC mining** 
+```
+RAT with PoC Mining/  
+├── plots                   #user challenges for mining   
+├── rat with poc mining/    # End-to-end Python projects  
+├── --pycache--             #(optional if you want then create this environment)  
+├── database
+           ├──rat2.sql      # database  implementations for this project  
+├── plots            
+├── statics
+         ├──css
+          ├──images
+           ├──js
+            ├──uploads/
+                      ├──profile_pictures
+              ├──videos
+├──templates             # Flask based Html source include css and js
+├──venv                   #(optional if you want then create this environment )               
+app.py            #(backend for route all templates and databased .py code file)
+blockchain.py      #(backend for blockchain .py code file)
+```
+
 ### Key Features  
 
 1. **Blockchain Functionality:** Implements secure transaction validation and decentralized ledger management.  
