@@ -296,9 +296,10 @@ git clone https://github.com/mdalvihasanemon/Blockchain-Based-Cryptocurrency-Pla
    **Xampp** Mysql connection is lost then run this two command on your cmd
    ```
    1. netstat -ano | findstr :3306
-   ```
    2. taskkill/ PID 6092( Please remember to enter your PID. Do not use this placeholder, as it will always differ for each user. ) /F
- ```
+ 
+   ```
+   
 4. **Frontend Build Errors:**  
    Ensure you have the latest Node.js and npm versions. Update if needed:  
    ```bash
