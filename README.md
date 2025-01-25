@@ -18,7 +18,8 @@ The platform is built with a robust architecture comprising:
 -------
 
 ## 📂 **Project file  Structure**  
- Main project File Name ## **RAT with PoC mining** 
+ Main project File Name 
+ **RAT with PoC mining** 
 ```
 RAT with PoC Mining/  
 ├── plots                   #user challenges for mining   
