@@ -24,19 +24,19 @@ The platform is built with a robust architecture comprising:
 RAT with PoC Mining/  
 ├── plots                   #user challenges for mining   
 ├── rat with poc mining/    # End-to-end Python projects  
-├── --pycache--             #(optional if you want then create this environment)  
-├── database
+  ├── --pycache--             #(optional if you want then create this environment)  
+  ├── database
            ├──rat2.sql      # database  implementations for this project  
-├── plots            
-├── statics
+  ├── plots            
+  ├── statics
          ├──css
           ├──images
            ├──js
             ├──uploads/
                       ├──profile_pictures
               ├──videos
-├──templates             # Flask based Html source include css and js
-├──venv                   #(optional if you want then create this environment )               
+ ├──templates             # Flask based Html source include css and js
+ ├──venv                   #(optional if you want then create this environment )               
 app.py            #(backend for route all templates and databased .py code file)
 blockchain.py      #(backend for blockchain .py code file)
 ```
